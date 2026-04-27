@@ -484,7 +484,7 @@ async function startQasimDev() {
                 }
                 if (shouldReconnect) {
                     printLog('connection', 'Reconnecting in 5 seconds...');
-                    await delay(5000);
+                    await delay(500000);
                     startQasimDev();
                 }
             }
